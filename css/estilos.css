@@ -1,7 +1,8 @@
 body
 {
+    background: #1e1f24;
+    color: #333;
     text-align: center;
-    color: rgb(27, 27, 27);
     font-family: "Airal";
     font-size: 16px;
     margin: 0;
@@ -9,15 +10,17 @@ body
 }
 #cabecera
 {
-    background: #33A;
+    background: #37488b;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
-    -webkit-box-shadow: -22px 6px 41px 1px rgba(0,0,0,0.35);
-    -moz-box-shadow: -22px 6px 41px 1px rgba(0,0,0,0.35);
-    box-shadow: -22px 6px 41px 1px rgba(0,0,0,0.35);
-
+}
+#cabecera #logo
+{
+    width: 20px;
+    vertical-align: middle;
 }
 #cabecera #tagline
 {
@@ -39,6 +42,7 @@ body
 }
 #post
 {
+<<<<<<< HEAD
 padding: 1em;
 }
 #footer
@@ -49,4 +53,8 @@ padding: 1em;
     font-family: Calibri;
     font-size: 18;
     padding: 1em;
+=======
+background: white;
+padding: 1em;
+>>>>>>> header
 }
