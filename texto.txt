@@ -3,3 +3,9 @@
 Esto es mi primer documento en el GIT
 
 
+<<<<<<< HEAD
+=======
+Experimento 1
+
+Experimento 2
+>>>>>>> 455afda (Experimento 2)
